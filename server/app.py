@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 nlp = spacy.load("en_core_web_sm")
-file_path = r"C:\Users\dell\Downloads\Book1.csv"
+file_path = r"C:\Users\hp\Documents\Book1.csv"
 
 def load_jobs_from_csv(file_path):
     jobs = []
